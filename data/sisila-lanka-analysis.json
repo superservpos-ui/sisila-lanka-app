@@ -1,7 +1,7 @@
 {
   "app": "Sisila Lanka Operations Management",
   "version": "1.0.0",
-  "exportedAt": "2026-08-14T07:30:32.492Z",
+  "exportedAt": "2026-08-14T07:34:55.392Z",
   "summary": {
     "totalUnits": 4,
     "totalUsers": 4,
@@ -27,6 +27,18 @@
         "weeklyScorePct": 44,
         "lastUpdated": "2026-08-14T05:30:07.784Z",
         "dailyState": {
+          "dq_2": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true
+          },
+          "dq_4": {
+            "1": true,
+            "2": true,
+            "3": true
+          },
           "dq_3": {
             "1": true,
             "2": true,
@@ -34,11 +46,6 @@
             "4": true,
             "5": true,
             "6": true
-          },
-          "dq_4": {
-            "1": true,
-            "2": true,
-            "3": true
           },
           "dq_1": {
             "1": true,
@@ -49,26 +56,19 @@
             "6": true,
             "7": true,
             "8": true
-          },
-          "dq_2": {
-            "1": true,
-            "2": true,
-            "3": true,
-            "4": true,
-            "5": true
           }
         },
         "weeklyState": {
-          "wq_1": {
-            "1": true,
-            "2": true,
-            "3": true
-          },
           "wq_2": {
             "1": true,
             "2": true,
             "3": true,
             "4": true
+          },
+          "wq_1": {
+            "1": true,
+            "2": true,
+            "3": true
           }
         }
       }
@@ -110,22 +110,6 @@
             "6": true,
             "7": true
           },
-          "dq_1": {
-            "1": true,
-            "2": true,
-            "3": true,
-            "4": true,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false,
-            "9": false,
-            "10": false,
-            "11": false
-          },
-          "dq_3": {
-            "1": true
-          },
           "dq_6": {
             "1": true,
             "2": true,
@@ -141,6 +125,22 @@
             "12": true,
             "13": true,
             "14": true
+          },
+          "dq_1": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false,
+            "9": false,
+            "10": false,
+            "11": false
+          },
+          "dq_3": {
+            "1": true
           }
         },
         "weeklyState": {
@@ -188,15 +188,6 @@
             "9": true,
             "10": true
           },
-          "dq_1": {
-            "1": true,
-            "2": true,
-            "3": true,
-            "4": true,
-            "5": true,
-            "6": true,
-            "7": true
-          },
           "dq_4": {
             "1": true,
             "2": true,
@@ -211,16 +202,25 @@
             "2": true,
             "3": true,
             "4": true
+          },
+          "dq_1": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
           }
         },
         "weeklyState": {
-          "wq_3": {
+          "wq_2": {
             "1": true,
             "2": true,
             "3": true,
             "4": true
           },
-          "wq_2": {
+          "wq_3": {
             "1": true,
             "2": true,
             "3": true,
@@ -269,7 +269,132 @@
   "rawReports": [
     {
       "id": "rep_unit1_manager1",
+      "managerId": "manager1",
+      "dailyQuestions": [
+        {
+          "category": "daily",
+          "id": "dq_1",
+          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව"
+        },
+        {
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "id": "dq_2",
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
+          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
+          "category": "daily"
+        },
+        {
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "id": "dq_3",
+          "category": "daily",
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup."
+        },
+        {
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
+          "titleEn": "4. Daily Raw Material & Stock Inventory Log",
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
+          "category": "daily",
+          "id": "dq_4"
+        },
+        {
+          "id": "dq_5",
+          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
+          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "category": "daily"
+        },
+        {
+          "category": "daily",
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
+          "titleEn": "6. Quality Control Sampling & Batch Testing",
+          "id": "dq_6",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න."
+        },
+        {
+          "category": "daily",
+          "id": "dq_7",
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup"
+        }
+      ],
+      "weeklyScorePct": 44,
+      "dailyScorePct": 10,
+      "managerName": "Unit 1 Manager",
+      "unitId": "unit1",
+      "lastUpdated": "2026-08-14T05:30:07.784Z",
+      "unitName": "Unit 1",
+      "overallScorePct": 27,
+      "weeklyState": {
+        "wq_2": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true
+        },
+        "wq_1": {
+          "1": true,
+          "2": true,
+          "3": true
+        }
+      },
+      "weeklyQuestions": [
+        {
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
+          "category": "weekly",
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "id": "wq_1"
+        },
+        {
+          "id": "wq_2",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
+          "category": "weekly"
+        },
+        {
+          "id": "wq_3",
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "category": "weekly",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න."
+        },
+        {
+          "category": "weekly",
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "id": "wq_4",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම"
+        }
+      ],
       "dailyState": {
+        "dq_2": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
+        "dq_4": {
+          "1": true,
+          "2": true,
+          "3": true
+        },
         "dq_3": {
           "1": true,
           "2": true,
@@ -277,11 +402,6 @@
           "4": true,
           "5": true,
           "6": true
-        },
-        "dq_4": {
-          "1": true,
-          "2": true,
-          "3": true
         },
         "dq_1": {
           "1": true,
@@ -292,407 +412,290 @@
           "6": true,
           "7": true,
           "8": true
-        },
-        "dq_2": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true,
-          "5": true
         }
-      },
-      "managerId": "manager1",
-      "weeklyState": {
-        "wq_1": {
-          "1": true,
-          "2": true,
-          "3": true
+      }
+    },
+    {
+      "id": "rep_unit1_manager3",
+      "managerName": "Manager 3 - Inventory & Stock",
+      "managerId": "manager3",
+      "weeklyQuestions": [
+        {
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
+          "id": "wq_1",
+          "category": "weekly",
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය"
         },
-        "wq_2": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true
+        {
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "category": "weekly",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
+          "id": "wq_2",
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය"
+        },
+        {
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "id": "wq_3",
+          "category": "weekly",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න."
+        },
+        {
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
+          "category": "weekly",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "id": "wq_4",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම"
         }
-      },
-      "weeklyScorePct": 44,
-      "overallScorePct": 27,
+      ],
+      "lastUpdated": "2026-08-13T10:37:59.813Z",
+      "unitId": "unit1",
+      "weeklyScorePct": 0,
       "dailyQuestions": [
         {
-          "category": "daily",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
-          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "id": "dq_1",
           "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "id": "dq_1"
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
+          "category": "daily",
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව"
         },
         {
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
           "id": "dq_2",
           "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "category": "daily",
           "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න."
+          "category": "daily"
         },
         {
           "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "titleEn": "3. Machine & Equipment Operational Status Check",
-          "category": "daily",
           "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
           "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "category": "daily",
           "id": "dq_3"
         },
         {
           "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
           "category": "daily",
           "titleEn": "4. Daily Raw Material & Stock Inventory Log",
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
-          "id": "dq_4"
+          "id": "dq_4",
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න."
         },
         {
           "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
-          "category": "daily",
-          "id": "dq_5",
           "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "id": "dq_5",
           "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "category": "daily",
           "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න."
         },
         {
           "titleEn": "6. Quality Control Sampling & Batch Testing",
-          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
-          "id": "dq_6",
-          "category": "daily",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch."
-        },
-        {
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
-          "category": "daily",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
-          "id": "dq_7",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම"
-        }
-      ],
-      "weeklyQuestions": [
-        {
-          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "id": "wq_1",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
-          "category": "weekly"
-        },
-        {
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
-          "id": "wq_2",
-          "category": "weekly"
-        },
-        {
-          "category": "weekly",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
-          "id": "wq_3"
-        },
-        {
-          "category": "weekly",
-          "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "id": "wq_4",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න."
-        }
-      ],
-      "managerName": "Unit 1 Manager",
-      "unitId": "unit1",
-      "unitName": "Unit 1",
-      "dailyScorePct": 10,
-      "lastUpdated": "2026-08-14T05:30:07.784Z"
-    },
-    {
-      "id": "rep_unit1_manager3",
-      "unitName": "Unit 1 - Main Factory / Processing",
-      "weeklyState": {},
-      "dailyQuestions": [
-        {
-          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
-          "id": "dq_1",
-          "category": "daily",
-          "titleEn": "1. Morning Facility Opening & Security Inspection"
-        },
-        {
-          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
-          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "id": "dq_2",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "category": "daily"
-        },
-        {
-          "titleEn": "3. Machine & Equipment Operational Status Check",
-          "category": "daily",
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "id": "dq_3",
-          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම"
-        },
-        {
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
-          "id": "dq_4",
-          "category": "daily",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
-          "titleEn": "4. Daily Raw Material & Stock Inventory Log"
-        },
-        {
-          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
-          "category": "daily",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
-          "id": "dq_5",
-          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව"
-        },
-        {
           "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
-          "id": "dq_6",
           "category": "daily",
-          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
-          "titleEn": "6. Quality Control Sampling & Batch Testing"
+          "id": "dq_6",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න."
         },
         {
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
           "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
           "id": "dq_7",
           "category": "daily",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
           "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
           "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම"
-        }
-      ],
-      "weeklyScorePct": 0,
-      "managerId": "manager3",
-      "weeklyQuestions": [
-        {
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "id": "wq_1",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
-          "category": "weekly",
-          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms."
-        },
-        {
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
-          "id": "wq_2",
-          "category": "weekly",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary."
-        },
-        {
-          "id": "wq_3",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
-          "category": "weekly",
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation"
-        },
-        {
-          "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
-          "category": "weekly",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "id": "wq_4",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න."
         }
       ],
       "overallScorePct": 1,
+      "weeklyState": {},
+      "dailyScorePct": 1,
       "dailyState": {
         "dq_1": {
           "1": true,
           "2": true
         }
       },
-      "managerName": "Manager 3 - Inventory & Stock",
-      "lastUpdated": "2026-08-13T10:37:59.813Z",
-      "unitId": "unit1",
-      "dailyScorePct": 1
+      "unitName": "Unit 1 - Main Factory / Processing"
     },
     {
       "id": "rep_unit2_manager1",
-      "managerName": "Manager 1 - Operations",
-      "dailyScorePct": 0,
-      "managerId": "manager1",
-      "dailyState": {},
-      "lastUpdated": "2026-08-13T10:41:49.745Z",
       "overallScorePct": 0,
+      "unitName": "Unit 2 - Regional Warehouse & Hub",
+      "managerId": "manager1",
+      "lastUpdated": "2026-08-13T10:41:49.745Z",
+      "managerName": "Manager 1 - Operations",
+      "weeklyScorePct": 0,
+      "dailyQuestions": [
+        {
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
+          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "id": "dq_1",
+          "category": "daily"
+        },
+        {
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "id": "dq_2",
+          "category": "daily",
+          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න."
+        },
+        {
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "category": "daily",
+          "id": "dq_3",
+          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup."
+        },
+        {
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
+          "titleEn": "4. Daily Raw Material & Stock Inventory Log",
+          "id": "dq_4",
+          "category": "daily",
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන"
+        },
+        {
+          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
+          "category": "daily",
+          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "id": "dq_5",
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards."
+        },
+        {
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
+          "category": "daily",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "id": "dq_6",
+          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
+          "titleEn": "6. Quality Control Sampling & Batch Testing"
+        },
+        {
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
+          "id": "dq_7",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
+          "category": "daily",
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න."
+        }
+      ],
+      "dailyState": {},
       "weeklyQuestions": [
         {
           "id": "wq_1",
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
           "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
           "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
           "category": "weekly"
         },
         {
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
           "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
           "category": "weekly",
           "id": "wq_2",
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න."
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review"
         },
         {
-          "category": "weekly",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
           "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "id": "wq_3"
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "id": "wq_3",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
+          "category": "weekly"
         },
         {
           "category": "weekly",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
           "id": "wq_4",
           "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback."
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම"
         }
       ],
       "weeklyState": {},
       "unitId": "unit2",
+      "dailyScorePct": 0
+    },
+    {
+      "id": "rep_unit2_manager2",
+      "overallScorePct": 21,
+      "unitName": "Unit 2",
+      "lastUpdated": "2026-08-14T04:15:25.273Z",
+      "managerId": "manager2",
+      "managerName": "Unit 2 Manager",
+      "weeklyScorePct": 25,
       "dailyQuestions": [
         {
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
           "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
           "category": "daily",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
           "id": "dq_1",
-          "titleEn": "1. Morning Facility Opening & Security Inspection"
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න."
         },
         {
+          "id": "dq_2",
           "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
           "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "id": "dq_2",
           "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
           "category": "daily",
           "titleEn": "2. Staff Attendance & Protective Safety Gear Verification"
         },
         {
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
-          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "category": "daily",
-          "id": "dq_3",
           "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "titleEn": "3. Machine & Equipment Operational Status Check"
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "id": "dq_3",
+          "category": "daily",
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup."
         },
         {
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
           "titleEn": "4. Daily Raw Material & Stock Inventory Log",
-          "category": "daily",
           "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
           "id": "dq_4",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන"
-        },
-        {
-          "id": "dq_5",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
-          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
-          "category": "daily",
-          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව"
-        },
-        {
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
-          "id": "dq_6",
-          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
-          "category": "daily",
-          "titleEn": "6. Quality Control Sampling & Batch Testing"
-        },
-        {
-          "category": "daily",
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
-          "id": "dq_7",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup"
-        }
-      ],
-      "unitName": "Unit 2 - Regional Warehouse & Hub",
-      "weeklyScorePct": 0
-    },
-    {
-      "id": "rep_unit2_manager2",
-      "dailyQuestions": [
-        {
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "category": "daily",
-          "id": "dq_1",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
-          "titleEn": "1. Morning Facility Opening & Security Inspection"
-        },
-        {
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "id": "dq_2",
-          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
           "category": "daily"
         },
         {
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
-          "category": "daily",
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "id": "dq_3",
-          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "titleEn": "3. Machine & Equipment Operational Status Check"
-        },
-        {
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
-          "category": "daily",
-          "id": "dq_4",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
-          "titleEn": "4. Daily Raw Material & Stock Inventory Log"
-        },
-        {
-          "category": "daily",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
           "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
           "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "category": "daily",
           "id": "dq_5"
         },
         {
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
-          "category": "daily",
           "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "id": "dq_6",
+          "category": "daily",
           "titleEn": "6. Quality Control Sampling & Batch Testing",
-          "id": "dq_6"
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch."
         },
         {
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
           "id": "dq_7",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
           "category": "daily",
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම"
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup"
         }
       ],
-      "weeklyScorePct": 25,
-      "managerId": "manager2",
-      "unitId": "unit2",
       "dailyState": {
         "dq_5": {
           "1": true,
@@ -712,22 +715,6 @@
           "6": true,
           "7": true
         },
-        "dq_1": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true,
-          "5": true,
-          "6": true,
-          "7": true,
-          "8": false,
-          "9": false,
-          "10": false,
-          "11": false
-        },
-        "dq_3": {
-          "1": true
-        },
         "dq_6": {
           "1": true,
           "2": true,
@@ -743,11 +730,58 @@
           "12": true,
           "13": true,
           "14": true
+        },
+        "dq_1": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false
+        },
+        "dq_3": {
+          "1": true
         }
       },
-      "managerName": "Unit 2 Manager",
-      "lastUpdated": "2026-08-14T04:15:25.273Z",
-      "unitName": "Unit 2",
+      "weeklyQuestions": [
+        {
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "id": "wq_1",
+          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
+          "category": "weekly"
+        },
+        {
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
+          "category": "weekly",
+          "id": "wq_2",
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review"
+        },
+        {
+          "category": "weekly",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "id": "wq_3"
+        },
+        {
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "id": "wq_4",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
+          "category": "weekly",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback."
+        }
+      ],
       "weeklyState": {
         "wq_1": {
           "1": true,
@@ -760,187 +794,135 @@
           "2": true
         }
       },
-      "dailyScorePct": 17,
-      "overallScorePct": 21,
-      "weeklyQuestions": [
-        {
-          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "id": "wq_1",
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "category": "weekly",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization"
-        },
-        {
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "category": "weekly",
-          "id": "wq_2",
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review"
-        },
-        {
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
-          "category": "weekly",
-          "id": "wq_3",
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න."
-        },
-        {
-          "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
-          "category": "weekly",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "id": "wq_4",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback."
-        }
-      ]
+      "unitId": "unit2",
+      "dailyScorePct": 17
     },
     {
       "id": "rep_unit3_manager2",
-      "weeklyScorePct": 0,
-      "dailyQuestions": [
-        {
-          "id": "dq_1",
-          "titleEn": "1. Morning Facility Opening & Security Inspection",
-          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "category": "daily",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න."
-        },
-        {
-          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "id": "dq_2",
-          "category": "daily",
-          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification"
-        },
-        {
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "category": "daily",
-          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "titleEn": "3. Machine & Equipment Operational Status Check",
-          "id": "dq_3"
-        },
-        {
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
-          "titleEn": "4. Daily Raw Material & Stock Inventory Log",
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
-          "id": "dq_4",
-          "category": "daily",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න."
-        },
-        {
-          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
-          "category": "daily",
-          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
-          "id": "dq_5"
-        },
-        {
-          "titleEn": "6. Quality Control Sampling & Batch Testing",
-          "id": "dq_6",
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "category": "daily",
-          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව"
-        },
-        {
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
-          "id": "dq_7",
-          "category": "daily",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න."
-        }
-      ],
-      "lastUpdated": "2026-08-13T10:41:33.327Z",
       "unitName": "Unit 3 - Retail & Outlet Operations",
-      "managerId": "manager2",
-      "managerName": "Manager 2 - Quality & Safety",
-      "dailyScorePct": 0,
-      "dailyState": {},
-      "overallScorePct": 0,
-      "unitId": "unit3",
-      "weeklyState": {},
       "weeklyQuestions": [
         {
           "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
+          "id": "wq_1",
           "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "category": "weekly",
-          "id": "wq_1",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization"
-        },
-        {
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "id": "wq_2",
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
-          "category": "weekly",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review"
-        },
-        {
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "id": "wq_3",
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "category": "weekly",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය"
-        },
-        {
-          "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "id": "wq_4",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
-          "category": "weekly",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම"
-        }
-      ]
-    },
-    {
-      "id": "rep_unit3_manager3",
-      "overallScorePct": 38,
-      "lastUpdated": "2026-08-14T04:57:23.492Z",
-      "weeklyQuestions": [
-        {
-          "id": "wq_1",
           "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
           "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
-          "category": "weekly",
-          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න."
+          "category": "weekly"
         },
         {
           "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
           "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "id": "wq_2",
           "category": "weekly",
+          "id": "wq_2",
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
           "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය"
         },
         {
           "category": "weekly",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
           "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
           "id": "wq_3",
-          "descriptionEn": "Count high-value inventory items and compare with system figures."
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න."
         },
         {
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
           "category": "weekly",
           "id": "wq_4",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
-          "titleEn": "4. Staff Safety & Operational Performance Meeting"
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න."
         }
       ],
-      "managerName": "Unit 3 Manager",
+      "lastUpdated": "2026-08-13T10:41:33.327Z",
+      "managerName": "Manager 2 - Quality & Safety",
+      "weeklyScorePct": 0,
+      "dailyQuestions": [
+        {
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
+          "id": "dq_1",
+          "category": "daily"
+        },
+        {
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
+          "category": "daily",
+          "id": "dq_2",
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව"
+        },
+        {
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "category": "daily",
+          "id": "dq_3",
+          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup."
+        },
+        {
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
+          "category": "daily",
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
+          "titleEn": "4. Daily Raw Material & Stock Inventory Log",
+          "id": "dq_4"
+        },
+        {
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "category": "daily",
+          "id": "dq_5",
+          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න."
+        },
+        {
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "id": "dq_6",
+          "category": "daily",
+          "titleEn": "6. Quality Control Sampling & Batch Testing",
+          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න."
+        },
+        {
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "category": "daily",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
+          "id": "dq_7",
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points."
+        }
+      ],
+      "managerId": "manager2",
+      "dailyState": {},
+      "overallScorePct": 0,
+      "unitId": "unit3",
+      "dailyScorePct": 0,
+      "weeklyState": {}
+    },
+    {
+      "id": "rep_unit3_manager3",
+      "weeklyState": {
+        "wq_2": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true
+        },
+        "wq_3": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true
+        },
+        "wq_1": {
+          "1": true,
+          "2": true
+        }
+      },
+      "dailyScorePct": 13,
       "dailyState": {
         "dq_2": {
           "1": true,
@@ -953,15 +935,6 @@
           "8": true,
           "9": true,
           "10": true
-        },
-        "dq_1": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true,
-          "5": true,
-          "6": true,
-          "7": true
         },
         "dq_4": {
           "1": true,
@@ -977,147 +950,271 @@
           "2": true,
           "3": true,
           "4": true
+        },
+        "dq_1": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true
         }
       },
-      "dailyScorePct": 13,
+      "unitId": "unit3",
+      "overallScorePct": 38,
+      "managerId": "manager3",
+      "managerName": "Unit 3 Manager",
+      "weeklyQuestions": [
+        {
+          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
+          "category": "weekly",
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
+          "id": "wq_1"
+        },
+        {
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "category": "weekly",
+          "id": "wq_2",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය"
+        },
+        {
+          "id": "wq_3",
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "category": "weekly",
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation"
+        },
+        {
+          "category": "weekly",
+          "id": "wq_4",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම"
+        }
+      ],
       "dailyQuestions": [
         {
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
-          "id": "dq_1",
-          "titleEn": "1. Morning Facility Opening & Security Inspection",
           "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "category": "daily"
-        },
-        {
-          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
           "category": "daily",
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "id": "dq_2"
+          "id": "dq_1",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව"
         },
         {
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "id": "dq_2",
+          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
+          "category": "daily",
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න."
+        },
+        {
+          "id": "dq_3",
           "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
           "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
-          "id": "dq_3",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
           "titleEn": "3. Machine & Equipment Operational Status Check",
           "category": "daily"
         },
         {
-          "id": "dq_4",
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
           "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
+          "category": "daily",
           "titleEn": "4. Daily Raw Material & Stock Inventory Log",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
-          "category": "daily"
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
+          "id": "dq_4",
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න."
         },
         {
           "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
+          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "category": "daily",
           "id": "dq_5",
           "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
-          "category": "daily",
-          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
           "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards."
         },
         {
-          "id": "dq_6",
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
           "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
+          "id": "dq_6",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
           "category": "daily",
-          "titleEn": "6. Quality Control Sampling & Batch Testing"
+          "titleEn": "6. Quality Control Sampling & Batch Testing",
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch."
         },
         {
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
           "category": "daily",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
           "id": "dq_7",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup"
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න."
         }
       ],
-      "unitId": "unit3",
       "weeklyScorePct": 63,
-      "weeklyState": {
-        "wq_3": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true
-        },
-        "wq_2": {
-          "1": true,
-          "2": true,
-          "3": true,
-          "4": true
-        },
-        "wq_1": {
-          "1": true,
-          "2": true
-        }
-      },
-      "managerId": "manager3",
-      "unitName": "Unit 3"
+      "unitName": "Unit 3",
+      "lastUpdated": "2026-08-14T04:57:23.492Z"
     },
     {
       "id": "rep_unit4_manager1",
-      "managerId": "manager1",
-      "weeklyState": {},
-      "unitId": "unit4",
-      "dailyState": {},
-      "unitName": "Unit 4 - Quality Control & Logistics",
-      "managerName": "Manager 1 - Operations",
-      "lastUpdated": "2026-08-13T10:41:39.874Z",
-      "overallScorePct": 0,
       "dailyScorePct": 0,
       "weeklyScorePct": 0,
       "dailyQuestions": [
         {
-          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
-          "titleEn": "1. Morning Facility Opening & Security Inspection",
-          "id": "dq_1",
           "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
+          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
+          "id": "dq_1",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
           "category": "daily",
           "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න."
         },
         {
           "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
           "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
+          "id": "dq_2",
           "category": "daily",
           "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "id": "dq_2",
           "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment."
         },
         {
-          "id": "dq_3",
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "titleEn": "3. Machine & Equipment Operational Status Check",
           "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "id": "dq_3",
           "category": "daily",
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම"
+          "titleEn": "3. Machine & Equipment Operational Status Check",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න."
         },
         {
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
           "id": "dq_4",
           "titleEn": "4. Daily Raw Material & Stock Inventory Log",
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
           "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
           "category": "daily",
           "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන"
         },
         {
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
           "category": "daily",
-          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
           "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "id": "dq_5"
+          "id": "dq_5",
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව"
+        },
+        {
+          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
+          "titleEn": "6. Quality Control Sampling & Batch Testing",
+          "id": "dq_6",
+          "category": "daily",
+          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව",
+          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch."
+        },
+        {
+          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
+          "category": "daily",
+          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
+          "id": "dq_7",
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
+          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම"
+        }
+      ],
+      "weeklyState": {},
+      "unitId": "unit4",
+      "overallScorePct": 0,
+      "dailyState": {},
+      "unitName": "Unit 4 - Quality Control & Logistics",
+      "managerId": "manager1",
+      "lastUpdated": "2026-08-13T10:41:39.874Z",
+      "managerName": "Manager 1 - Operations",
+      "weeklyQuestions": [
+        {
+          "category": "weekly",
+          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
+          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
+          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
+          "id": "wq_1"
+        },
+        {
+          "id": "wq_2",
+          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "category": "weekly",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
+          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary."
+        },
+        {
+          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
+          "category": "weekly",
+          "id": "wq_3",
+          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
+          "descriptionEn": "Count high-value inventory items and compare with system figures.",
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය"
+        },
+        {
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "category": "weekly",
+          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
+          "id": "wq_4",
+          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
+          "titleEn": "4. Staff Safety & Operational Performance Meeting"
+        }
+      ]
+    },
+    {
+      "id": "rep_unit4_manager4",
+      "lastUpdated": "2026-08-13T16:22:19.389Z",
+      "managerId": "manager4",
+      "dailyQuestions": [
+        {
+          "category": "daily",
+          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness.",
+          "titleEn": "1. Morning Facility Opening & Security Inspection",
+          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
+          "id": "dq_1",
+          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න."
+        },
+        {
+          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
+          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
+          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment.",
+          "id": "dq_2",
+          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
+          "category": "daily"
+        },
+        {
+          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
+          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
+          "category": "daily",
+          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup.",
+          "id": "dq_3",
+          "titleEn": "3. Machine & Equipment Operational Status Check"
+        },
+        {
+          "id": "dq_4",
+          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
+          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
+          "category": "daily",
+          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
+          "titleEn": "4. Daily Raw Material & Stock Inventory Log"
+        },
+        {
+          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
+          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
+          "id": "dq_5",
+          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
+          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards.",
+          "category": "daily"
         },
         {
           "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "titleEn": "6. Quality Control Sampling & Batch Testing",
           "category": "daily",
+          "titleEn": "6. Quality Control Sampling & Batch Testing",
           "id": "dq_6",
           "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
           "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව"
@@ -1125,111 +1222,18 @@
         {
           "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points.",
           "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
-          "id": "dq_7",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
-          "category": "daily",
-          "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම"
-        }
-      ],
-      "weeklyQuestions": [
-        {
-          "id": "wq_1",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
-          "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
-          "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization",
-          "category": "weekly"
-        },
-        {
-          "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "id": "wq_2",
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "category": "weekly",
-          "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න."
-        },
-        {
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
-          "id": "wq_3",
-          "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "category": "weekly",
-          "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න."
-        },
-        {
-          "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
-          "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "id": "wq_4",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
-          "titleEn": "4. Staff Safety & Operational Performance Meeting",
-          "category": "weekly"
-        }
-      ]
-    },
-    {
-      "id": "rep_unit4_manager4",
-      "unitName": "Unit 4 - Quality Control & Logistics",
-      "weeklyState": {},
-      "weeklyScorePct": 0,
-      "dailyQuestions": [
-        {
-          "titleEn": "1. Morning Facility Opening & Security Inspection",
-          "descriptionSi": "ප්‍රධාන දොරටු, ඇලර්ම් පද්ධතිය, හදිසි පිටවීම් සහ සමස්ත පිරිසිදුකම පරීක්ෂා කරන්න.",
-          "category": "daily",
-          "titleSi": "1. උදෑසන පහසුකම් විවෘත කිරීම සහ ආරක්ෂක පරීක්ෂාව",
-          "id": "dq_1",
-          "descriptionEn": "Check main doors, alarm system, emergency exits, and overall entry cleanliness."
-        },
-        {
-          "descriptionSi": "සියලුම සේවකයින් පැමිණ සිටින බවත් අවශ්‍ය ආරක්ෂිත කට්ටල පැළඳ සිටින බවත් තහවුරු කරන්න.",
-          "category": "daily",
-          "titleEn": "2. Staff Attendance & Protective Safety Gear Verification",
-          "titleSi": "2. කාර්ය මණ්ඩල පැමිණීම සහ ආරක්ෂිත ඇඳුම්/ආරක්ෂක කට්ටල පරීක්ෂාව",
-          "id": "dq_2",
-          "descriptionEn": "Confirm all shift workers are present and wearing mandated safety equipment."
-        },
-        {
-          "id": "dq_3",
-          "category": "daily",
-          "titleSi": "3. යන්ත්‍ර සූත්‍ර සහ උපකරණ ක්‍රියාකාරී තත්ත්වය පරීක්ෂා කිරීම",
-          "descriptionSi": "නිෂ්පාදන මාර්ග, ශීතකරණ/උෂ්ණත්ව පාලක සහ විදුලි පද්ධති පරීක්ෂා කරන්න.",
-          "titleEn": "3. Machine & Equipment Operational Status Check",
-          "descriptionEn": "Inspect production lines, refrigeration/temp controls, and power backup."
-        },
-        {
-          "titleSi": "4. දෛනික අමුද්‍රව්‍ය සහ තොග ඉන්වෙන්ටරි සටහන",
-          "descriptionSi": "පැමිණෙන තොග සටහන් කර අවම අමුද්‍රව්‍ය ප්‍රමාණය පරීක්ෂා කරන්න.",
-          "descriptionEn": "Log incoming stock arrivals and check for minimum buffer inventory thresholds.",
-          "category": "daily",
-          "titleEn": "4. Daily Raw Material & Stock Inventory Log",
-          "id": "dq_4"
-        },
-        {
-          "id": "dq_5",
-          "descriptionSi": "වැඩබිම, මහල සහ අපද්‍රව්‍ය බඳුන් පිරිසිදු කර ඇති බව තහවුරු කරගන්න.",
-          "category": "daily",
-          "titleSi": "5. සනීපාරක්ෂාව, පිරිසිදුකම සහ අපද්‍රව්‍ය බැහැර කිරීමේ පරීක්ෂාව",
-          "titleEn": "5. Sanitation, Hygiene & Waste Disposal Audit",
-          "descriptionEn": "Ensure working tables, floors, and disposal bins are cleaned according to Sisila Lanka standards."
-        },
-        {
-          "descriptionSi": "බෙදාහැරීමට පෙර දෛනික නිෂ්පාදන නියැදි පරික්ෂා කරන්න.",
-          "titleEn": "6. Quality Control Sampling & Batch Testing",
-          "id": "dq_6",
-          "descriptionEn": "Perform visual and technical checks on daily batches before dispatch.",
-          "category": "daily",
-          "titleSi": "6. තත්ත්ව පාලන නියැදි සහ ඛණ්ඩ පරීක්ෂාව"
-        },
-        {
-          "id": "dq_7",
           "titleSi": "7. දින අවසාන වසා දැමීම, මුදල් ගිණුම්කරණය සහ වසා අගුලු දැමීම",
-          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න.",
           "category": "daily",
-          "titleEn": "7. End-of-Day Closing, Cash Reconciliation & Lockup",
-          "descriptionEn": "Reconcile daily records, verify physical cash/vouchers, lock all entry points."
+          "id": "dq_7",
+          "descriptionSi": "දෛනික වාර්තා ගැලපීම, මුදල් පරික්ෂාව සහ දොරගුලු දැමීම තහවුරු කරන්න."
         }
       ],
-      "managerId": "manager4",
+      "weeklyScorePct": 0,
+      "overallScorePct": 2,
+      "managerName": "Manager 4 - Staff & Facility",
+      "unitName": "Unit 4 - Quality Control & Logistics",
+      "dailyScorePct": 3,
+      "unitId": "unit4",
       "dailyState": {
         "dq_1": {
           "1": true,
@@ -1241,45 +1245,41 @@
           "7": true
         }
       },
-      "dailyScorePct": 3,
-      "lastUpdated": "2026-08-13T16:22:19.389Z",
-      "unitId": "unit4",
+      "weeklyState": {},
       "weeklyQuestions": [
         {
           "titleSi": "1. සතිපතා පරිපූර්ණ ගැඹුරු පිරිසිදු කිරීම සහ විශබීජහරණය",
           "category": "weekly",
+          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
           "id": "wq_1",
           "descriptionSi": "යන්ත්‍ර සූත්‍ර, තොග රාක්ක සහ කාර්ය මණ්ඩල කාමර ගැඹුරින් පිරිසිදු කරන්න.",
-          "descriptionEn": "Deep clean heavy machinery, storage racks, and staff break rooms.",
           "titleEn": "1. Comprehensive Weekly Deep Cleaning & Sanitization"
         },
         {
-          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
-          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
-          "id": "wq_2",
-          "category": "weekly",
           "descriptionSi": "මෝටර් රථ, තෙල් මට්ටම සහ ෆිල්ටර පරීක්ෂා කර නඩත්තු කරන්න.",
+          "titleSi": "2. සතිපතා පූර්ව ආරක්ෂණ නඩත්තු සහ තෙල් යෙදීම් සමාලෝචනය",
+          "id": "wq_2",
+          "descriptionEn": "Service motors, check oil levels, replace filters if necessary.",
+          "category": "weekly",
           "titleEn": "2. Weekly Preventive Maintenance & Lubrication Review"
         },
         {
+          "category": "weekly",
           "titleEn": "3. Full Physical Stock Audit & Variance Reconciliation",
-          "descriptionEn": "Count high-value inventory items and compare with system figures.",
-          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
           "descriptionSi": "වටිනා තොග ගණනය කර පද්ධති සටහන් සමඟ සසඳන්න.",
           "id": "wq_3",
-          "category": "weekly"
+          "titleSi": "3. සම්පූර්ණ භෞතික තොග ගණන් කිරීම සහ වෙනස්කම් සංසන්දනය",
+          "descriptionEn": "Count high-value inventory items and compare with system figures."
         },
         {
-          "id": "wq_4",
           "titleSi": "4. කාර්ය මණ්ඩල ආරක්ෂාව සහ මෙහෙයුම් කාර්ය සාධන රැස්වීම",
-          "category": "weekly",
-          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
           "descriptionEn": "Conduct weekly briefing on targets, safety compliance, and employee feedback.",
-          "titleEn": "4. Staff Safety & Operational Performance Meeting"
+          "titleEn": "4. Staff Safety & Operational Performance Meeting",
+          "id": "wq_4",
+          "descriptionSi": "සතිපතා ඉලක්ක, ආරක්ෂාව සහ සේවක ප්‍රතිපෝෂණ පිළිබඳ රැස්වීම පවත්වන්න.",
+          "category": "weekly"
         }
-      ],
-      "overallScorePct": 2,
-      "managerName": "Manager 4 - Staff & Facility"
+      ]
     }
   ]
 }
