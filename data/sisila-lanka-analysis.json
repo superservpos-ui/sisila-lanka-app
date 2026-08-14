@@ -1,9 +1,9 @@
 {
   "app": "Sisila Lanka Operations Management",
   "version": "1.0.0",
-  "exportedAt": "2026-08-14T05:43:06.832Z",
+  "exportedAt": "2026-08-14T05:44:20.723Z",
   "summary": {
-    "totalUnits": 3,
+    "totalUnits": 4,
     "totalUsers": 3,
     "totalReports": 8
   },
@@ -231,6 +231,31 @@
             "4": true
           }
         }
+      }
+    },
+    {
+      "unitId": "unit_1786686251011",
+      "unitNameEn": "Unit 4",
+      "unitNameSi": "Unit 4",
+      "code": "UN-4",
+      "assignedManagers": [],
+      "performance": {
+        "overallScorePct": 2,
+        "dailyScorePct": 3,
+        "weeklyScorePct": 0,
+        "lastUpdated": "2026-08-13T16:22:19.389Z",
+        "dailyState": {
+          "dq_1": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          }
+        },
+        "weeklyState": {}
       }
     }
   ],
