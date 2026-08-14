@@ -1,10 +1,10 @@
 {
   "app": "Sisila Lanka Operations Management",
   "version": "1.0.0",
-  "exportedAt": "2026-08-14T05:44:20.723Z",
+  "exportedAt": "2026-08-14T05:45:21.186Z",
   "summary": {
     "totalUnits": 4,
-    "totalUsers": 3,
+    "totalUsers": 4,
     "totalReports": 8
   },
   "units": [
@@ -238,7 +238,14 @@
       "unitNameEn": "Unit 4",
       "unitNameSi": "Unit 4",
       "code": "UN-4",
-      "assignedManagers": [],
+      "assignedManagers": [
+        {
+          "id": "mgr_1786686300252",
+          "nameEn": "Unit Manager",
+          "nameSi": "Unit Manager",
+          "role": "Operations Manager"
+        }
+      ],
       "performance": {
         "overallScorePct": 2,
         "dailyScorePct": 3,
